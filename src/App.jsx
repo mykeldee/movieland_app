@@ -3,6 +3,7 @@ import './App.css'
 import MovieCard from './MovieCard';
 import searchIcon from './search.svg'
 
+//print the API KEY to the console
 console.log(import.meta.env.VITE_API_KEY)
 const API_URL = `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}`
 
